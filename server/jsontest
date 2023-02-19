@@ -1,0 +1,14 @@
+
+
+
+const obj={
+    name: "varun",
+    age:22
+}
+
+const varun= JSON.stringify(obj)
+console.log(varun);
+
+
+const str=JSON.parse(varun)
+console.log(str);
